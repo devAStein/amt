@@ -1,0 +1,164 @@
+/*      SECTION DO CONTEUDO      */
+
+.secall .app {
+    width: 96vw;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secall .app .fundo {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.secall .app p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.637);
+    margin: 0;
+}
+
+.secall .app .fundo .modulosVendas {
+    display: flex;
+    gap: 15px;
+}
+
+.secall .app .fundo .modulosVendas .func {
+    min-height: 180px;
+    min-width: 250px;
+    max-height: 180px;
+    max-width: 250px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.secall .app .fundo .modulosVendas .func:hover {
+    background-color: white;
+    border: 0.5px solid rgb(192, 192, 192);
+}
+
+.secall .app .fundo .modulosVendas .func i {
+    font-size: 35px;
+}
+
+
+.secall .app .fundo .modulosVendas .func p {
+    font-size: 18px;
+    margin: 10px 0px;
+    color: black;
+}
+
+
+.secall .app .fundo .modulosVendas .func1 {
+    background-color: #5664ff59;
+}
+
+.secall .app .fundo .modulosVendas .func2 {
+    background-color: #5664ffa6;
+}
+
+.secall .app .fundo .modulosVendas .func3 {
+    background-color: #6e7aff;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+    /*      SECTION DO CONTEUDO      */
+
+    .secall .app {
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        margin-top: 15vh;
+    }
+
+    .secall .app .fundo {
+        gap: 15px;
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+        
+        background-color: #EDEDED;
+    }
+
+    .secall .app #pfunc {
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.637);
+        margin: 0;
+        min-width: 80%;
+        display: flex;
+        margin: 0px auto 20px auto ;
+        text-align: left;
+    }
+
+    .secall .app .fundo .modulosVendas {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secall .app .fundo .modulosVendas .func {
+        min-height: 10vh;
+        min-width: 80%;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        cursor: pointer;
+        gap: 20px;
+
+    }
+
+    .secall .app .fundo .modulosVendas .func:hover {
+        background-color: white;
+        border: 0.5px solid rgb(192, 192, 192);
+    }
+
+    .secall .app .fundo .modulosVendas .func i {
+        font-size: 22px;
+        margin-left: 20%;
+    }
+
+
+    .secall .app .fundo .modulosVendas .func p {
+        font-size: 16px;
+        margin: 10px 0px;
+        color: black;
+    }
+
+
+    .secall .app .fundo .modulosVendas .func1 {
+        background-color: #5664ff59;
+    }
+
+    .secall .app .fundo .modulosVendas .func2 {
+        background-color: #5664ffa6;
+    }
+
+    .secall .app .fundo .modulosVendas .func3 {
+        background-color: #6e7aff;
+    }
+
+
+
+
+}
